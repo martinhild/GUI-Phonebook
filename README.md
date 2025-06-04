@@ -14,6 +14,12 @@ A simple program to manage contacts — built with Python and PyQt5.
 ## Project Structure
 
 MeinTelefonbuch/
+
+
 ├── main.py
+
+
 ├── gui/contact_gui.py
+
+
 ├── classes/contact_management.py
