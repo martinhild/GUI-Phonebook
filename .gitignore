@@ -1,3 +1,7 @@
+build_onedir/
+dist_onefile/
+
+
 # Python Bytecode
 *.pyc
 *.pyo
