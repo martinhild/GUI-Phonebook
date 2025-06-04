@@ -1,0 +1,29 @@
+# Python Bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# PyInstaller
+/dist/
+/build/
+*.spec
+
+# Venv (Virtuelle Umgebungen)
+venv/
+env/
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDEs und Editoren
+.vscode/
+.idea/
+
+# Python-Debugging-Dateien
+*.log
+*.bak
+
+# .env-Dateien für geheime Schlüssel, API-Keys oder Umgebungsvariablen
+.env
