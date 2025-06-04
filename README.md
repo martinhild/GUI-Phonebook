@@ -1,8 +1,5 @@
-# 📇 Contact Manager (PyQt5)
-
 A simple program to manage contacts — built with Python and PyQt5.
 
----
 
 ##  What It Does
 
@@ -15,11 +12,10 @@ A simple program to manage contacts — built with Python and PyQt5.
 
 MeinTelefonbuch/
 
-
-├── main.py
-
-
-├── gui/contact_gui.py
+--main.py
 
 
-├── classes/contact_management.py
+--gui/contact_gui.py
+
+
+--lasses/contact_management.py
