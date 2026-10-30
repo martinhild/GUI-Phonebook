@@ -7,13 +7,12 @@ def main():
     # Telefonbuch initialisieren
     phonebook = Contacts()
 
-    # Standardkontakte zum Start der Anwendung
-    phonebook.add_contact("Joachim Schiller", "01472 548545")
-    phonebook.add_contact("Beathe Kramp", "01431 245315")
-    phonebook.add_contact("Rudi Knaller", "02433 12251")
+    # Standardkontakte zum Start der Anwendung für ein sehr simples MVP
     phonebook.add_contact("Jon Doe", "01431 84253")
-    phonebook.add_contact("Sarah Maier", "08657 18657")
-    phonebook.add_contact("Sascha Müller", "09875 49827")
+    phonebook.add_contact("Max Mustermann", "01431 84253")
+    phonebook.add_contact("Obi One", "08657 18657")
+    phonebook.add_contact("Obi Two", "09875 49827")
+    phonebook.add_contact("Monty Python", "02375 41127")
 
     # QApplication initialisieren
     app = QApplication(sys.argv)
