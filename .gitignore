@@ -1,33 +1,65 @@
-build_onedir/
-dist_onefile/
 
-
-# Python Bytecode
-*.pyc
-*.pyo
+# ==========================================
+# Python Bytecode and Cache
+# ==========================================
 __pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# PyInstaller
-/dist/
-/build/
-*.spec
-
-# Venv (Virtuelle Umgebungen)
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
 venv/
 env/
 
+# ==========================================
+# Environment Variables and Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
 
-# Windows
-Thumbs.db
-ehthumbs.db
-
-# IDEs und Editoren
-.vscode/
+# ==========================================
+# IDEs and Editors
+# ==========================================
 .idea/
+.vscode/
 
-# Python-Debugging-Dateien
+# ==========================================
+# Build and Distribution
+# ==========================================
+build/
+dist/
+build_onedir/
+dist_onefile/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.spec
+
+# ==========================================
+# Logs and Backup Files
+# ==========================================
 *.log
 *.bak
+*.tmp
 
-# .env-Dateien für geheime Schlüssel, API-Keys oder Umgebungsvariablen
-.env
+# ==========================================
+# Windows
+# ==========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Coverage Reports
+# ==========================================
+.coverage
+.coverage.*
+htmlcov/
