@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import (QWidget, QVBoxLayout, QPushButton, QLineEdit,
                              QLabel, QListWidget, QHBoxLayout, QMessageBox)
 from PyQt5.QtCore import Qt
-from classes.contact_management import Contacts, Person
+from core.contact_management import Contacts, Person
 
 
 class ContactApp(QWidget):

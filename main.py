@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-from classes.contact_management import Contacts  # Meine Klasse Contacts
+from core.contact_management import Contacts  # Meine Klasse Contacts
 from gui.contact_gui import ContactApp  # Meine GUI
 
 def main():
