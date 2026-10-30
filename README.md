@@ -1,6 +1,6 @@
 # GUI-Phonebook
 
-A simple phonebook application built with **Python** and **PyQt5** as a learning project.
+A very simple phonebook application built with **Python** and **PyQt5** as a learning project.
 
 ## Features
 
@@ -26,4 +26,4 @@ Start the application:
 python main.py
 ```
 
-**Note:** Contacts are stored in memory and reset when the application restarts.
+**Note:** Contacts are stored in memory and reset when the application restarts. Persistent storage was intentionally excluded from the scope of this MVP.
